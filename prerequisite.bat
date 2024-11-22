@@ -24,7 +24,7 @@ pause > nul
 
 :: Section 3: Run Python prevent sleep script
 echo Section 3: Running Python Awoken script...
-start python "C:\ProgramData\Awoken\awoken.py"
+start python "C:\ProgramData\Awoken\awoken.exe"
 
 :: Check if Python script ran successfully
 if %ERRORLEVEL% NEQ 0 (
