@@ -49,20 +49,20 @@ Right-click on the prerequisite.bat file and select Run as Administrator. This w
 
 * It will check if the folder C:\ProgramData\Awoken exists and create it if necessary.
 * It will disable the sleep and screen timeout settings.
-* It will start the Python script (awoken.exe) that will prevent the system from going to sleep and simulate user activity.
+* It will start the Python script (awoken.exe) that will prevent the system from going to sleep and simulate user activity. <br>
 <br> Follow the Prompts
 <br>
 The batch script will prompt you to press Enter after each section. Press Enter to proceed to the next section: <br>
 
 * Checking/creating the folder.
 * Disabling sleep settings.
-* Running the Python script.
+* Running the Executable.
 
-#### Step 3: Python Script Runs in the Background
+#### Step 3: The Executable Runs in the Background
 
-After the batch script has run, the Python script will continue running in the background: <br>
-* Prevent Sleep: The Python script uses the Windows API to prevent the system from entering sleep mode.
-* Simulate Activity: Every 30 seconds, the Python script simulates mouse movement to keep the system active and prevent idle timeouts.
+After the batch script has run, the executable will continue running in the background: <br>
+* Prevent Sleep: The executable uses the Windows API to prevent the system from entering sleep mode.
+* Simulate Activity: Every 30 seconds, the executable simulates mouse movement to keep the system active and prevent idle timeouts.
 
 #### Step 4: Stopping the Executable
 * To stop the executable, simply terminate the awoken.exe process from the Task Manager.
