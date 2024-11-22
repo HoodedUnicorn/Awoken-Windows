@@ -1,6 +1,6 @@
 # Awoken - Keep Your Windows System Awake
 
-**Awoken** is a simple solution to prevent your Windows computer from entering sleep mode by keeping it awake and simulating user activity. The program consists of two scripts: a batch script to set up the environment and a Python script that prevents sleep while simulating activity.
+**Awoken** is a simple solution to prevent your Windows computer from entering sleep mode by keeping it awake and simulating user activity. The program consists of two scripts: a batch script to set up the environment and an executable that prevents sleep while simulating activity.
 
 ---
 
@@ -64,5 +64,5 @@ After the batch script has run, the Python script will continue running in the b
 * Prevent Sleep: The Python script uses the Windows API to prevent the system from entering sleep mode.
 * Simulate Activity: Every 30 seconds, the Python script simulates mouse movement to keep the system active and prevent idle timeouts.
 
-#### Step 4: Stopping the Script
-* To stop the Python script, simply close the terminal or terminate the running process from the Task Manager.
+#### Step 4: Stopping the Executable
+* To stop the executable, simply terminate the awoken.exe process from the Task Manager.
