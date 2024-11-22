@@ -26,7 +26,7 @@ You may need administrator privileges to execute certain commands, especially wh
 This project contains two main files:
 
 `prerequisite.bat`: A batch script to set up the necessary environment, disable sleep settings, and run the Python script. <br>
-`awoken.py`: A Python script that prevents the system from going to sleep and simulates activity.
+`awoken.exe`: An executable prevents the system from going to sleep and simulates activity.
 
 ### Steps to Set Up and Run
 #### Step 1: Prepare the Environment
@@ -35,7 +35,7 @@ First, create a folder where the scripts will reside. You can use the batch scri
 
 The folder will be created at C:\ProgramData\Awoken. This folder is where both scripts will be stored.
 Download or Copy the Scripts
-Copy both `prerequisite.bat` and `awoken.py` into the folder C:\ProgramData\Awoken.
+Copy both `prerequisite.bat` and `awoken.exe` into the folder C:\ProgramData\Awoken.
 
 Install the Python Libraries
 Open a terminal (Command Prompt or PowerShell) and install the necessary Python library (pyautogui) by running:
@@ -49,7 +49,7 @@ Right-click on the prerequisite.bat file and select Run as Administrator. This w
 
 * It will check if the folder C:\ProgramData\Awoken exists and create it if necessary.
 * It will disable the sleep and screen timeout settings.
-* It will start the Python script (awoken.py) that will prevent the system from going to sleep and simulate user activity.
+* It will start the Python script (awoken.exe) that will prevent the system from going to sleep and simulate user activity.
 <br> Follow the Prompts
 <br>
 The batch script will prompt you to press Enter after each section. Press Enter to proceed to the next section: <br>
